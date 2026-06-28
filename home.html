@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block title %}HirePilot AI | HR-Ready Interview Coaching{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-copy reveal">
+        <p class="eyebrow">AI-POWERED CAREER PREPARATION</p>
+        <h1>Turn every interview into a confident, recruiter-ready performance.</h1>
+        <p>HirePilot AI helps candidates sharpen responses, present their experience clearly, and impress hiring teams with calm, polished delivery.</p>
+
+        <div class="hero-actions">
+            <a class="btn" href="{% url 'accounts:register' %}">Start Your Journey</a>
+            <a class="btn btn-secondary" href="{% url 'accounts:login' %}">View Platform</a>
+        </div>
+
+        <div class="metric-row">
+            <div class="stat-pill">
+                <strong>24/7</strong>
+                <span>AI coaching</span>
+            </div>
+            <div class="stat-pill">
+                <strong>100%</strong>
+                <span>focus on clarity</span>
+            </div>
+            <div class="stat-pill">
+                <strong>HR-ready</strong>
+                <span>candidate experience</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-panel reveal">
+        <div class="panel-badge">Recruiter-grade insight</div>
+        <h3>What makes it stand out</h3>
+        <div class="panel-list">
+            <div class="panel-item">
+                <span>✓</span>
+                <p>Natural mock interviews that feel realistic and professional.</p>
+            </div>
+            <div class="panel-item">
+                <span>✓</span>
+                <p>Resume-aware guidance tailored to your background and role.</p>
+            </div>
+            <div class="panel-item">
+                <span>✓</span>
+                <p>Structured feedback that helps candidates and HR teams make better decisions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-block">
+    <div class="section-title reveal">
+        <p class="eyebrow">Why it works</p>
+        <h2>Designed to feel premium, intuitive, and genuinely useful.</h2>
+        <p>Every interaction is crafted to feel modern, polished, and supportive without losing clarity.</p>
+    </div>
+
+    <div class="feature-grid">
+        <article class="card reveal">
+            <h3>Mock interviews</h3>
+            <p>Practice realistic conversations and build confidence before the real thing.</p>
+        </article>
+        <article class="card reveal">
+            <h3>Resume intelligence</h3>
+            <p>Organize, review, and present your experience in a clear and professional way.</p>
+        </article>
+        <article class="card reveal">
+            <h3>Actionable feedback</h3>
+            <p>Get sharp suggestions that help you improve communication and impact.</p>
+        </article>
+    </div>
+</section>
+
+<section class="section-block">
+    <div class="feature-grid">
+        <article class="card reveal">
+            <h3>For candidates</h3>
+            <p>Walk in prepared, stay composed, and communicate your value with confidence.</p>
+        </article>
+        <article class="card reveal">
+            <h3>For HR teams</h3>
+            <p>Spot stronger candidates faster with a professional, consistent interview experience.</p>
+        </article>
+        <article class="card reveal">
+            <h3>For modern hiring</h3>
+            <p>Blend human judgment with AI guidance for a more efficient, future-ready process.</p>
+        </article>
+    </div>
+</section>
+
+<section class="section-block">
+    <div class="cta-panel reveal">
+        <div>
+            <p class="eyebrow">Built to impress</p>
+            <h2>Shape stronger candidates and smarter hiring decisions.</h2>
+        </div>
+        <a class="btn" href="{% url 'accounts:register' %}">Join Now</a>
+    </div>
+</section>
+{% endblock %}
